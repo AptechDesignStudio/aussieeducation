@@ -1,8 +1,8 @@
-.bg-yellow {
+.applyform .bg-yellow {
     background-color: yellow;
 }
 
-.form-control {
+.applyform .form-control {
     padding: 0px 10px;
     font-size: 14px;
     font-weight: 300;
@@ -36,7 +36,7 @@ header {
     margin: 30px;
 }
 
-label {
+.applyform label {
     background: #eee;
     font-weight: bold;
     width: 100%;
@@ -45,7 +45,7 @@ label {
     padding-bottom: 7px;
 }
 
-.smallLabel {
+.applyform .smallLabel {
     background-color: #fff;
     font-size: 12px;
     padding: 0;

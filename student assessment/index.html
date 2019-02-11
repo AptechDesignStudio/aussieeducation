@@ -30,7 +30,7 @@
 
   </header>
   <div class="mainbody">
-    <form class="form">
+    <form class="form applyform" method="post" action="#">
       <div class="personinfo mb-3">
         <div class="row">
           <div class="col-lg-2 col-md-3 col-sm-4 col-12">
@@ -49,7 +49,7 @@
 
           </div>
           <div class="col-lg-10 col-md-9 col-sm-8 col-12">
-            <input type="text" class="form-control" name="lastname" placeholder="Middle Name">
+            <input type="text" class="form-control" name="middlename" placeholder="Middle Name">
 
           </div>
         </div>
@@ -71,7 +71,7 @@
 
           </div>
           <div class="col-lg-10 col-md-9 col-sm-8 col-12">
-            <textarea rows="3" class="form-control">
+            <textarea rows="3" class="form-control" name="homeaddress">
 
                       </textarea>
           </div>
@@ -139,23 +139,23 @@
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
             <label class="smallLabel">Start Date</label>
-            <input type="date" class="form-control" placeholder="MM/DD/YY">
+            <input type="date" class="form-control" placeholder="MM/DD/YY" name="startdate_1">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
             <label class="smallLabel">Finish Date</label>
-            <input type="date" class="form-control" placeholder="MM/DD/YY">
+            <input type="date" class="form-control" placeholder="MM/DD/YY" name="enddate_1">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
             <label class="smallLabel">Marks (%)</label>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="marks_1">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
             <label class="smallLabel">Majoring Subject</label>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="subject_1">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
             <label class="smallLabel">Comment</label>
-            <textarea rows="3" class="form-control"></textarea>
+            <textarea rows="3" class="form-control" name="comment_1"></textarea>
           </div>
         </div>
 
@@ -165,23 +165,23 @@
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
             <label class="smallLabel">Start Date</label>
-            <input type="date" class="form-control" placeholder="MM/DD/YY">
+            <input type="date" class="form-control" placeholder="MM/DD/YY" name="startdate_2">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
             <label class="smallLabel">Finish Date</label>
-            <input type="date" class="form-control" placeholder="MM/DD/YY">
+            <input type="date" class="form-control" placeholder="MM/DD/YY" name="enddate_2">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
             <label class="smallLabel">Marks (%)</label>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="marks_2">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
             <label class="smallLabel">Majoring Subject</label>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="subject_2">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
             <label class="smallLabel">Comment</label>
-            <textarea rows="3" class="form-control"></textarea>
+            <textarea rows="3" class="form-control" name="comment_2"></textarea>
           </div>
         </div>
 
@@ -191,23 +191,23 @@
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
             <label class="smallLabel">Start Date</label>
-            <input type="date" class="form-control" placeholder="MM/DD/YY">
+            <input type="date" class="form-control" placeholder="MM/DD/YY" name="startdate_3">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
             <label class="smallLabel">Finish Date</label>
-            <input type="date" class="form-control" placeholder="MM/DD/YY">
+            <input type="date" class="form-control" placeholder="MM/DD/YY" name="enddate_3">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
             <label class="smallLabel">Marks (%)</label>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="marks_3">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
             <label class="smallLabel">Majoring Subject</label>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="subject_3">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
             <label class="smallLabel">Comment</label>
-            <textarea rows="3" class="form-control"></textarea>
+            <textarea rows="3" class="form-control" name="comment_3"></textarea>
           </div>
         </div>
 
@@ -217,23 +217,23 @@
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
             <label class="smallLabel">Start Date</label>
-            <input type="date" class="form-control" placeholder="MM/DD/YY">
+            <input type="date" class="form-control" placeholder="MM/DD/YY" name="startdate_4">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
             <label class="smallLabel">Finish Date</label>
-            <input type="date" class="form-control" placeholder="MM/DD/YY">
+            <input type="date" class="form-control" placeholder="MM/DD/YY" name="enddate_4">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
             <label class="smallLabel">Marks (%)</label>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="marks_4">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
             <label class="smallLabel">Majoring Subject</label>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="subject_4">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
             <label class="smallLabel">Comment</label>
-            <textarea rows="3" class="form-control"></textarea>
+            <textarea rows="3" class="form-control" name="comment_4"></textarea>
           </div>
         </div>
 
@@ -243,23 +243,23 @@
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
             <label class="smallLabel">Start Date</label>
-            <input type="date" class="form-control" placeholder="MM/DD/YY">
+            <input type="date" class="form-control" placeholder="MM/DD/YY" name="startdate_5">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
             <label class="smallLabel">Finish Date</label>
-            <input type="date" class="form-control" placeholder="MM/DD/YY">
+            <input type="date" class="form-control" placeholder="MM/DD/YY" name="enddate_5">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
             <label class="smallLabel">Marks (%)</label>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="marks_5">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
             <label class="smallLabel">Majoring Subject</label>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="subject_5">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
             <label class="smallLabel">Comment</label>
-            <textarea rows="3" class="form-control"></textarea>
+            <textarea rows="3" class="form-control" name="comment_5"></textarea>
           </div>
         </div>
       </div>
@@ -274,7 +274,7 @@
                 <label class="text-center">Reading</label>
               </div>
               <div class="col-12">
-                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control" name="reading"></td>
               </div>
             </div>
 
@@ -286,7 +286,7 @@
                 <label class="text-center">Writing</label>
               </div>
               <div class="col-12">
-                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control" name="writing"></td>
               </div>
             </div>
 
@@ -297,7 +297,7 @@
                 <label class="text-center">Listening</label>
               </div>
               <div class="col-12">
-                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control" name="listening"></td>
               </div>
             </div>
 
@@ -308,7 +308,7 @@
                 <label class="text-center">Speaking</label>
               </div>
               <div class="col-12">
-                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control" name="speaking"></td>
               </div>
             </div>
 
@@ -319,7 +319,7 @@
                 <label class="text-center">Overall</label>
               </div>
               <div class="col-12">
-                <td><input type="text" class="form-control"></td>
+                <td><input type="text" class="form-control" name="overall"></td>
               </div>
             </div>
 
@@ -339,19 +339,19 @@
             </label>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="fixeddeposit_1">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="fixeddeposit_2">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="fixeddeposit_3">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="fixeddeposit_4">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="fixeddeposit_5">
           </div>
         </div>
         <div class="row">
@@ -361,19 +361,19 @@
             </label>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="saving_1">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="saving_2">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="saving_3">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="saving_4">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="saving_5">
           </div>
         </div>
         <div class="row">
@@ -383,19 +383,19 @@
             </label>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="othersaving_1">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="othersaving_2">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="othersaving_3">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="othersaving_4">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="othersaving_5">
           </div>
         </div>
         <div class="row">
@@ -405,19 +405,19 @@
             </label>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="gold_1">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="gold_2">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="gold_3">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="gold_4">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="gold_5">
           </div>
         </div>
         <div class="row">
@@ -427,19 +427,19 @@
             </label>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="land_1">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="land_2">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="land_3">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="land_4">
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="land_5">
           </div>
         </div>
       </div>
@@ -453,27 +453,27 @@
         <div class="row">
           <div class="col-lg-2 col-md-2 col-sm-2 col-12">
             <label class="smallLabel">S.No</label>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="sn_1">
 
           </div>
           <div class="col-lg-4 col-md-4 col-sm-10 col-12">
             <label class="smallLabel">Company Name</label>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="company_1">
 
           </div>
           <div class="col-lg-2 col-md-2 col-sm-4 col-12">
             <label class="smallLabel">Position</label>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="position_1">
 
           </div>
           <div class="col-lg-2 col-md-2 col-sm-4 col-12">
             <label class="smallLabel">Start Date</label>
-            <input type="date" class="form-control">
+            <input type="date" class="form-control" name="startdate_1">
 
           </div>
           <div class="col-lg-2 col-md-2 col-sm-4 col-12">
             <label class="smallLabel">End Date</label>
-            <input type="date" class="form-control">
+            <input type="date" class="form-control" name="enddate_1">
 
           </div>
 
@@ -481,27 +481,27 @@
         <div class="row">
           <div class="col-lg-2 col-md-2 col-sm-2 col-12">
             <label class="smallLabel">S.No</label>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="sn_1">
 
           </div>
           <div class="col-lg-4 col-md-4 col-sm-10 col-12">
             <label class="smallLabel">Company Name</label>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="company_2">
 
           </div>
           <div class="col-lg-2 col-md-2 col-sm-4 col-12">
             <label class="smallLabel">Position</label>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="position_2">
 
           </div>
           <div class="col-lg-2 col-md-2 col-sm-4 col-12">
             <label class="smallLabel">Start Date</label>
-            <input type="date" class="form-control">
+            <input type="date" class="form-control" name="startdate_2">
 
           </div>
           <div class="col-lg-2 col-md-2 col-sm-4 col-12">
             <label class="smallLabel">End Date</label>
-            <input type="date" class="form-control">
+            <input type="date" class="form-control" name="enddate_2">
 
           </div>
 
@@ -509,27 +509,27 @@
         <div class="row">
           <div class="col-lg-2 col-md-2 col-sm-2 col-12">
             <label class="smallLabel">S.No</label>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="sn_1">
 
           </div>
           <div class="col-lg-4 col-md-4 col-sm-10 col-12">
             <label class="smallLabel">Company Name</label>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="company_3">
 
           </div>
           <div class="col-lg-2 col-md-2 col-sm-4 col-12">
             <label class="smallLabel">Position</label>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="position_3">
 
           </div>
           <div class="col-lg-2 col-md-2 col-sm-4 col-12">
             <label class="smallLabel">Start Date</label>
-            <input type="date" class="form-control">
+            <input type="date" class="form-control" name="startdate_3">
 
           </div>
           <div class="col-lg-2 col-md-2 col-sm-4 col-12">
             <label class="smallLabel">End Date</label>
-            <input type="date" class="form-control">
+            <input type="date" class="form-control" name="enddate_3">
 
           </div>
 
@@ -541,7 +541,7 @@
             <label widlabel="200px" class="bg-yellow">Intrested Course</label>
           </div>
           <div class="col-lg-9 col-md-9 col-sm-7 col-12">
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name="intcourse">
           </div>
         </div>
         <div class="row">
@@ -549,14 +549,14 @@
             <label widlabel="200px" class="bg-yellow">Intrested CITY</label>
           </div>
           <div class="col-lg-9 col-md-9 col-sm-7 col-12">
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" class="intcity">
           </div>
         </div>
       </div>
 
-  </div>
-  <input type="submit" class="btn btn-success mx-auto d-flex mb-3" name="SUBMIT">
-  </form>
+
+      <input type="submit" class="btn btn-success mx-auto d-flex mb-3" name="SUBMIT">
+    </form>
   </div>
   <footer></footer>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
