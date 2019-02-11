@@ -1,0 +1,64 @@
+.bg-yellow {
+    background-color: yellow;
+}
+
+.form-control {
+    padding: 0px 10px;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 0;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background: url('images/header.jpg');
+    background-size: cover;
+}
+
+.logo {
+    width: 350px;
+    height: auto;
+    margin: 10px 50px 10px 105px;
+}
+
+.title {
+    position: absolute;
+    top: 0;
+    right: 120px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mainbody {
+    margin: 30px;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.table td,
+.table th {
+    padding: 7px;
+    vertical-align: middle;
+    border-top: none;
+}
+
+table,
+th,
+td {
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #eee;
+}
+
+footer {
+    background-color: #00519d;
+    height: 30px;
+}
