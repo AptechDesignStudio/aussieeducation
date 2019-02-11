@@ -10,249 +10,553 @@
 
 <body>
   <header>
-    <img src="images/logo.jpg" class="logo">
-    <div class="title">
-      <h1>+61 0406 107 107</h1>
-      <p>A: 6-10 Geneves Avenue, Rockdale, NSW -2216</p>
-      <p>Email: india@aussieeducation.com.au</p>
-      <p>www.aussieeducation.com.au | F: www.facebook.com/aussieeducation11</p>
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <img src="images/logo.jpg" class="logo">
+      </div>
+      <div class="col-md-6 text-center">
+        <div class="title">
+          <h1>+61 0406 107 107</h1>
+          <p>A: 6-10 Geneves Avenue, Rockdale, NSW -2216</p>
+          <p>Email: india@aussieeducation.com.au</p>
+          <p>www.aussieeducation.com.au | F: www.facebook.com/aussieeducation11</p>
 
+        </div>
+
+      </div>
     </div>
+
 
 
   </header>
   <div class="mainbody">
     <form class="form">
+      <div class="personinfo mb-3">
+        <div class="row">
+          <div class="col-lg-2 col-md-3 col-sm-4 col-12">
+            <label>First name</label>
 
-      <table class="table">
-        <tr>
-          <th>First name</th>
-          <td colspan="5">
+          </div>
+          <div class="col-lg-10 col-md-9 col-sm-8 col-12">
             <input type="text" class="form-control" name="firstname" placeholder="First Name">
-          </td>
-        </tr>
-        <tr>
-          <th>Middle Name</th>
-          <td colspan="5">
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-md-3 col-sm-4 col-12">
+
+            <label>Middle Name</label>
+
+          </div>
+          <div class="col-lg-10 col-md-9 col-sm-8 col-12">
             <input type="text" class="form-control" name="lastname" placeholder="Middle Name">
-          </td>
-        </tr>
-        <tr>
-          <th>Last name</th>
-          <td colspan="5">
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-md-3 col-sm-4 col-12">
+
+            <label>Last name</label>
+
+          </div>
+          <div class="col-lg-10 col-md-9 col-sm-8 col-12">
             <input type="text" class="form-control" name="lastname" placeholder="Last Name">
-          </td>
-        </tr>
-        <tr>
-          <th>Home Address</th>
-          <td colspan="5">
-            <!-- <input type="text" class="form-control" name="lastname" placeholder="Address"> -->
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-md-3 col-sm-4 col-12">
+
+            <label>Home Address</label>
+
+          </div>
+          <div class="col-lg-10 col-md-9 col-sm-8 col-12">
             <textarea rows="3" class="form-control">
 
-            </textarea>
-          </td>
-        </tr>
-        <tr>
-          <th>Passport Number</th>
-          <td><input type="text" class="form-control" name="passportnumber" placeholder="Password Number"></td>
-          <th class="text-center">Issue Date</th>
-          <td>
+                      </textarea>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-md-3 col-sm-4 col-12">
+            <label>Passport Number</label>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-8 col-12">
+            <input type="text" class="form-control" name="passportnumber" placeholder="Password Number">
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-12">
+            <label class="text-center">Issue Date</label>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-8 col-12">
             <input type="date" class="form-control" name="issuedate" placeholder="MM/DD/YY">
-          </td>
-          <th class="text-center">Expiry Date</th>
-          <td>
-            <input type="date" class="form-control" name="expirydate" placeholder="MM/DD/YY">
-          </td>
-        </tr>
-        <tr>
-          <th>Email Address</th>
-          <td colspan="5">
-            <input type="email" class="form-control" placeholder="example@abc.com" name="email">
-          </td>
-        </tr>
-        <tr>
-          <th>Mobile Number</th>
-          <td colspan="3">
-            <input type="text" class="form-control" name="mobilenumber" placeholder="Mobile Number">
-          </td>
-          <th class="text-center">Date of Birth</th>
-          <td>
-            <input type="date" class="form-control" name="dob" placeholder="MM/DD/YY">
-          </td>
-        </tr>
-      </table>
-      <!-- <p class="text-right">MM/DD/YY</p> -->
-      <table class="table">
-        <tr>
-          <th colspan="6" class="text-center bg-yellow">Education</th>
-        </tr>
-        <tr>
-          <th></th>
-          <th class="text-center">Start Date</th>
-          <th class="text-center">Finish Date</th>
-          <th class="text-center">Marks (%)</th>
-          <th class="text-center">Majoring Subject</th>
-          <th class="text-center">Comment</th>
-        </tr>
-        <tr>
-          <th>Year 10</th>
-          <td><input type="date" class="form-control" placeholder="MM/DD/YY"></td>
-          <td><input type="date" class="form-control" placeholder="MM/DD/YY"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><textarea rows="3" class="form-control"></textarea></td>
-        </tr>
-        <tr>
-          <th>Year 12</th>
-          <td><input type="date" class="form-control" placeholder="MM/DD/YY"></td>
-          <td><input type="date" class="form-control" placeholder="MM/DD/YY"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><textarea rows="3" class="form-control"></textarea></td>
-        </tr>
-        <tr>
-          <th>Diploma</th>
-          <td><input type="date" class="form-control" placeholder="MM/DD/YY"></td>
-          <td><input type="date" class="form-control" placeholder="MM/DD/YY"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><textarea rows="3" class="form-control"></textarea></td>
-        </tr>
-        <tr>
-          <th>Bachelor</th>
-          <td><input type="date" class="form-control" placeholder="MM/DD/YY"></td>
-          <td><input type="date" class="form-control" placeholder="MM/DD/YY"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><textarea rows="3" class="form-control"></textarea></td>
-        </tr>
-        <tr>
-          <th>Masters</th>
-          <td><input type="date" class="form-control" placeholder="MM/DD/YY"></td>
-          <td><input type="date" class="form-control" placeholder="MM/DD/YY"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><textarea rows="3" class="form-control"></textarea></td>
-        </tr>
-      </table>
-      <table class="table ">
-        <tr>
-          <th rowspan="2" class="bg-yellow text-center">IELTS / PTE</th>
-          <th class="text-center">Reading</th>
-          <th class="text-center">Writing</th>
-          <th class="text-center">Listening</th>
-          <th class="text-center">Speaking</th>
-          <th class="text-center">Overall</th>
-        </tr>
-        <tr>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-        </tr>
 
-      </table>
-      <table class="table">
-        <tr>
-          <th colspan="6" class="bg-yellow text-center">Finances</th>
-        </tr>
-        <tr>
-          <th>
-            Fixed Deposit
-          </th>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-        </tr>
-        <tr>
-          <th>
-            Saving Account
-          </th>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-        </tr>
-        <tr>
-          <th>
-            Other Savings
-          </th>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-        </tr>
-        <tr>
-          <th>
-            Gold & Jewelleries
-          </th>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-        </tr>
-        <tr>
-          <th>
-            Land valuation
-          </th>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-        </tr>
-      </table>
-      <table class="table ">
-        <tr>
-          <th colspan="5" class="bg-yellow text-center">ANY WORK EXPERIENCE</th>
-        </tr>
-        <tr>
-          <th class="text-center">Position</th>
-          <th class="text-center">Company Name</th>
-          <th class="text-center">Position</th>
-          <th class="text-center">Start Date</th>
-          <th class="text-center">End Date</th>
-        </tr>
-        <tr>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="date" class="form-control" placeholder="MM/DD/YY"></td>
-          <td><input type="date" class="form-control" placeholder="MM/DD/YY"></td>
-        </tr>
-        <tr>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="date" class="form-control" placeholder="MM/DD/YY"></td>
-          <td><input type="date" class="form-control" placeholder="MM/DD/YY"></td>
-        </tr>
-        <tr>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="text" class="form-control"></td>
-          <td><input type="date" class="form-control" placeholder="MM/DD/YY"></td>
-          <td><input type="date" class="form-control" placeholder="MM/DD/YY"></td>
-        </tr>
-      </table>
-      <table class="table">
-        <tr>
-          <th width="200px" class="bg-yellow">Intrested Course</th>
-          <td><input type="text" class="form-control"></td>
-        </tr>
-        <tr>
-          <th width="200px" class="bg-yellow">Intrested CITY</th>
-          <td><input type="text" class="form-control"></td>
-        </tr>
-      </table>
-      <input type="submit" class="btn btn-success mx-auto d-flex" name="SUBMIT">
-    </form>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-12">
+            <label class="text-center">Expiry Date</label>
+
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-8 col-12">
+            <input type="date" class="form-control" name="expirydate" placeholder="MM/DD/YY">
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-md-3 col-sm-4 col-12">
+            <label>Email Address</label>
+
+          </div>
+          <div class="col-lg-10 col-md-9 col-sm-8 col-12">
+            <input type="email" class="form-control" placeholder="example@abc.com" name="email">
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-md-3 col-sm-4 col-12">
+            <label>Mobile Number</label>
+          </div>
+          <div class="col-lg-4 col-md-3 col-sm-8 col-12">
+            <input type="text" class="form-control" name="mobilenumber" placeholder="Mobile Number">
+
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-12">
+            <label class="text-center">Date of Birth</label>
+
+          </div>
+          <div class="col-lg-4 col-md-3 col-sm-8 col-12">
+            <input type="date" class="form-control" name="dob" placeholder="MM/DD/YY">
+
+          </div>
+        </div>
+      </div>
+      <div class="education mb-3">
+        <div class="row">
+          <div class="col-12">
+            <label class="text-center bg-yellow">Education</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label>Year 10</label>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label class="smallLabel">Start Date</label>
+            <input type="date" class="form-control" placeholder="MM/DD/YY">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label class="smallLabel">Finish Date</label>
+            <input type="date" class="form-control" placeholder="MM/DD/YY">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label class="smallLabel">Marks (%)</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label class="smallLabel">Majoring Subject</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label class="smallLabel">Comment</label>
+            <textarea rows="3" class="form-control"></textarea>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label>Year 12</label>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label class="smallLabel">Start Date</label>
+            <input type="date" class="form-control" placeholder="MM/DD/YY">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label class="smallLabel">Finish Date</label>
+            <input type="date" class="form-control" placeholder="MM/DD/YY">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label class="smallLabel">Marks (%)</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label class="smallLabel">Majoring Subject</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label class="smallLabel">Comment</label>
+            <textarea rows="3" class="form-control"></textarea>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label>Diploma</label>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label class="smallLabel">Start Date</label>
+            <input type="date" class="form-control" placeholder="MM/DD/YY">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label class="smallLabel">Finish Date</label>
+            <input type="date" class="form-control" placeholder="MM/DD/YY">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label class="smallLabel">Marks (%)</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label class="smallLabel">Majoring Subject</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label class="smallLabel">Comment</label>
+            <textarea rows="3" class="form-control"></textarea>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label>Bachelor</label>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label class="smallLabel">Start Date</label>
+            <input type="date" class="form-control" placeholder="MM/DD/YY">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label class="smallLabel">Finish Date</label>
+            <input type="date" class="form-control" placeholder="MM/DD/YY">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label class="smallLabel">Marks (%)</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label class="smallLabel">Majoring Subject</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label class="smallLabel">Comment</label>
+            <textarea rows="3" class="form-control"></textarea>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label>Masters</label>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label class="smallLabel">Start Date</label>
+            <input type="date" class="form-control" placeholder="MM/DD/YY">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label class="smallLabel">Finish Date</label>
+            <input type="date" class="form-control" placeholder="MM/DD/YY">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label class="smallLabel">Marks (%)</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label class="smallLabel">Majoring Subject</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label class="smallLabel">Comment</label>
+            <textarea rows="3" class="form-control"></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="ielts mb-3">
+        <div class="row">
+          <div class="col-lg-2 col-md-12 col-sm-12 col-12">
+            <label class="bg-yellow text-center">IELTS / PTE</label>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <div class="row">
+              <div class="col-12">
+                <label class="text-center">Reading</label>
+              </div>
+              <div class="col-12">
+                <td><input type="text" class="form-control"></td>
+              </div>
+            </div>
+
+
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <div class="row">
+              <div class="col-12">
+                <label class="text-center">Writing</label>
+              </div>
+              <div class="col-12">
+                <td><input type="text" class="form-control"></td>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <div class="row">
+              <div class="col-12">
+                <label class="text-center">Listening</label>
+              </div>
+              <div class="col-12">
+                <td><input type="text" class="form-control"></td>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <div class="row">
+              <div class="col-12">
+                <label class="text-center">Speaking</label>
+              </div>
+              <div class="col-12">
+                <td><input type="text" class="form-control"></td>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <div class="row">
+              <div class="col-12">
+                <label class="text-center">Overall</label>
+              </div>
+              <div class="col-12">
+                <td><input type="text" class="form-control"></td>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="finance mb-3">
+        <div class="row">
+          <div class="col-12">
+            <label colspan="6" class="bg-yellow text-center">Finances</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label>
+              Fixed Deposit
+            </label>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <input type="text" class="form-control">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label>
+              Saving Account
+            </label>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <input type="text" class="form-control">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label>
+              Other Savings
+            </label>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <input type="text" class="form-control">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label>
+              Gold & Jewelleries
+            </label>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <input type="text" class="form-control">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <label>
+              Land valuation
+            </label>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <input type="text" class="form-control">
+          </div>
+        </div>
+      </div>
+
+      <div class="workexperience mb-3">
+        <div class="row">
+          <div class="col-12">
+            <label colspan="5" class="bg-yellow text-center">ANY WORK EXPERIENCE</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-md-2 col-sm-2 col-12">
+            <label class="smallLabel">S.No</label>
+            <input type="text" class="form-control">
+
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-10 col-12">
+            <label class="smallLabel">Company Name</label>
+            <input type="text" class="form-control">
+
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-4 col-12">
+            <label class="smallLabel">Position</label>
+            <input type="text" class="form-control">
+
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-4 col-12">
+            <label class="smallLabel">Start Date</label>
+            <input type="date" class="form-control">
+
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-4 col-12">
+            <label class="smallLabel">End Date</label>
+            <input type="date" class="form-control">
+
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-md-2 col-sm-2 col-12">
+            <label class="smallLabel">S.No</label>
+            <input type="text" class="form-control">
+
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-10 col-12">
+            <label class="smallLabel">Company Name</label>
+            <input type="text" class="form-control">
+
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-4 col-12">
+            <label class="smallLabel">Position</label>
+            <input type="text" class="form-control">
+
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-4 col-12">
+            <label class="smallLabel">Start Date</label>
+            <input type="date" class="form-control">
+
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-4 col-12">
+            <label class="smallLabel">End Date</label>
+            <input type="date" class="form-control">
+
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-md-2 col-sm-2 col-12">
+            <label class="smallLabel">S.No</label>
+            <input type="text" class="form-control">
+
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-10 col-12">
+            <label class="smallLabel">Company Name</label>
+            <input type="text" class="form-control">
+
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-4 col-12">
+            <label class="smallLabel">Position</label>
+            <input type="text" class="form-control">
+
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-4 col-12">
+            <label class="smallLabel">Start Date</label>
+            <input type="date" class="form-control">
+
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-4 col-12">
+            <label class="smallLabel">End Date</label>
+            <input type="date" class="form-control">
+
+          </div>
+
+        </div>
+      </div>
+      <div class="intrest mb-3">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-5 col-12">
+            <label widlabel="200px" class="bg-yellow">Intrested Course</label>
+          </div>
+          <div class="col-lg-9 col-md-9 col-sm-7 col-12">
+            <input type="text" class="form-control">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-5 col-12">
+            <label widlabel="200px" class="bg-yellow">Intrested CITY</label>
+          </div>
+          <div class="col-lg-9 col-md-9 col-sm-7 col-12">
+            <input type="text" class="form-control">
+          </div>
+        </div>
+      </div>
+
+  </div>
+  <input type="submit" class="btn btn-success mx-auto d-flex mb-3" name="SUBMIT">
+  </form>
   </div>
   <footer></footer>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

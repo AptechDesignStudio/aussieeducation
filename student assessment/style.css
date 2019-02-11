@@ -7,6 +7,7 @@
     font-size: 14px;
     font-weight: 300;
     border-radius: 0;
+    margin-bottom: 5px;
 }
 
 header {
@@ -19,46 +20,47 @@ header {
 .logo {
     width: 350px;
     height: auto;
-    margin: 10px 50px 10px 105px;
+    /* margin: 10px 50px 10px 105px; */
 }
 
 .title {
-    position: absolute;
+    /* position: absolute;
     top: 0;
-    right: 120px;
+    right: 120px; */
     color: #fff;
     font-weight: bold;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .mainbody {
     margin: 30px;
 }
 
-.table {
+label {
+    background: #eee;
+    font-weight: bold;
     width: 100%;
-    margin-bottom: 20px;
+    padding-top: 7px;
+    padding-left: 15px;
+    padding-bottom: 7px;
 }
 
-.table td,
-.table th {
-    padding: 7px;
-    vertical-align: middle;
-    border-top: none;
-}
-
-table,
-th,
-td {
-    /* border: 1px solid black; */
-    border-collapse: collapse;
-}
-
-th {
-    background-color: #eee;
+.smallLabel {
+    background-color: #fff;
+    font-size: 12px;
+    padding: 0;
+    height: 10px
 }
 
 footer {
     background-color: #00519d;
     height: 30px;
+}
+
+/* mobile view */
+
+@media screen and (max-width: 800px) {
+    .title {
+        background: #00519d;
+    }
 }
